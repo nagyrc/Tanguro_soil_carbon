@@ -6,7 +6,7 @@ library(sm)
 library(quantreg)
 library(car)
 
-C14<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/Tanguro_14C_data_for_analysis_BS.csv")
+C14<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/final_code_and_data/data/Tanguro_14C_data_for_analysis_BS.csv")
 str(C14)
 head(C14)
 
@@ -71,7 +71,7 @@ anova(C10.aov)
 
 #include update to 50 cm based on equivalent mass (adjusts for soil compaction) in 0-10 cm
 #bring in data from profile sites 
-C14w<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/weighted.csv")
+C14w<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/final_code_and_data/data/weighted.csv")
 
 #subset by depth
 depth10<-C14w[which(C14w$depth=="10"),]

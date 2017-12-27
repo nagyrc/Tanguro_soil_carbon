@@ -6,7 +6,7 @@ library(sm)
 library(quantreg)
 library(car)
 
-C14<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/Tanguro_14C_data_for_analysis_BS.csv")
+C14<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/final_code_and_data/data/Tanguro_14C_data_for_analysis_BS.csv")
 str(C14)
 head(C14)
 

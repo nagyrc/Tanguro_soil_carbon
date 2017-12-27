@@ -10,7 +10,7 @@ library(quantreg)
 
 
 #############################################
-CO2<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/CO2_conce_data.csv")
+CO2<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/final_code_and_data/data/CO2_conce_data.csv")
 
 #subset data by depth sampled
 depth0_10<-CO2[which(CO2$depth=="0-10"),]
@@ -150,7 +150,7 @@ kruskal.test(C_evolv_mgC_gsoil_day~landuse, data=depth190_200)
 ###############################
 #to calculate time to respire all C in sample (values not reported in manuscript table)
 
-time<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/time_to_respire_C.csv")
+time<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/final_code_and_data/data/time_to_respire_C.csv")
 
 head(time)
 str(time)
@@ -218,7 +218,7 @@ ses
 #start Table 3: CO2 and 14C
 
 
-C14<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/Tanguro_14C_data_for_analysis_CO2.csv")
+C14<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/final_code_and_data/data/Tanguro_14C_data_for_analysis_CO2.csv")
 str(C14)
 head(C14)
 

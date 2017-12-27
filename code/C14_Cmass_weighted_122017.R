@@ -7,7 +7,7 @@ library(doBy)
 library(sm)
 library(quantreg)
 
-C14w<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/weighted.csv")
+C14w<- read.csv("C:/Users/rnagy/Dropbox/Tanguro_soil_C_chapter/final_code_and_data/final_code_and_data/data/weighted.csv")
 str(C14w)
 head(C14w)
 
